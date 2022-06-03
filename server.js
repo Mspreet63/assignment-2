@@ -5,7 +5,7 @@
 * 
 *  Name: _Manpreet Singh_____________________ Student ID: _125947218_____________ Date: ___31 May 2022_____________
 *
-*  Online (Heroku) URL: ________________________________________________________
+*  Online (Heroku) URL: ___http://peaceful-bastion-12743.herokuapp.com____
 *
 *  GitHub Repository URL: ______________________________________________________
 *
