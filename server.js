@@ -7,7 +7,7 @@
 *
 *  Online (Heroku) URL: ___http://peaceful-bastion-12743.herokuapp.com____
 *
-*  GitHub Repository URL: ______ ________________________________________________
+*  GitHub Repository URL: ______ https://github.com/Mspreet63/assignment-2________________________________________________
 *
 ********************************************************************************/ 
 
