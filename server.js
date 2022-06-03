@@ -1,3 +1,16 @@
+/*********************************************************************************
+*  WEB322 – Assignment 02
+*  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  No part *  of this assignment has been copied manually or electronically from any other source 
+*  (including 3rd party web sites) or distributed to other students.
+* 
+*  Name: _Manpreet Singh_____________________ Student ID: _125947218_____________ Date: ___31 May 2022_____________
+*
+*  Online (Heroku) URL: ________________________________________________________
+*
+*  GitHub Repository URL: ______________________________________________________
+*
+********************************************************************************/ 
+
 var express = require("express");
 var fs = require('fs');
 var path = require('path');
@@ -16,15 +29,16 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, '/views/about.html'));
   });
   app.get('/blog', function(req, res) {
-    res.sendFile(path.join(__dirname, '/data/posts.json'));
-  });
-  app.get('/posts', function(req, res) {
     blog.getPublishedPosts().then((data) =>
     {
         res.json({data});
     }).catch((err) => {
         res.json({message: err});
     })
+  });
+  app.get('/posts', function(req, res) {
+    res.sendFile(path.join(__dirname, '/data/posts.json'));
+  
   });
   app.get('/categories', function(req, res) {
     res.sendFile(path.join(__dirname, '/data/categories.json'));

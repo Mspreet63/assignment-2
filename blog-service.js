@@ -58,7 +58,9 @@ exports.getPublishedPosts = () =>
         {
             reject('Error');
         }
+        else{
         resolve(publishposts);
+        }
     })
 };
 
